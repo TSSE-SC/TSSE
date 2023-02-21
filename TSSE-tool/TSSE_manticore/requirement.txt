@@ -1,0 +1,5 @@
+manticore-0.3.4
+slither-0.7.1
+evm-cfg-builder-0.3.1
+solc-select
+crytic-compile   0.1.13

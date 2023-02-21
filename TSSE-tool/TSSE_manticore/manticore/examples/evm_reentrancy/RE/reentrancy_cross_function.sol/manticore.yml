@@ -1,0 +1,4 @@
+cli:
+  argv:
+  - reentrancycrossfunction_Reentrancycrossfunction.sol
+  detectors_to_exclude: uninitialized-storage,uninitialized-memory,unused-return,suicidal,delegatecall,env-instr,lockdrop

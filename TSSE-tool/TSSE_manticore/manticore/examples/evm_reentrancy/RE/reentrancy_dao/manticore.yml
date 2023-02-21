@@ -1,0 +1,4 @@
+cli:
+  argv:
+  - reentrancydao_ReentrancyDAO.sol
+  detectors_to_exclude: uninitialized-storage,uninitialized-memory,unused-return,suicidal,delegatecall,env-instr,lockdrop

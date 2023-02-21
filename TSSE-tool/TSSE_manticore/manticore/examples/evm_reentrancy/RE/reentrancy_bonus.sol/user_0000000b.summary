@@ -1,0 +1,71 @@
+Message: REVERT
+Last exception: REVERT
+Last instruction at contract 4a263c2136af0ac5be8b7ef5cf96f5d8711b5a23 offset 50
+    9  contract Reentrancybonus{
+        10  
+        11      // INSECURE
+        12      mapping (address => uint) private userBalances;
+        13      mapping (address => bool) private claimedBonus;
+        14      mapping (address => uint) private rewardsForA;
+        15  
+        16      function withdrawReward(address recipient) public {
+        17          uint amountToWithdraw = rewardsForA[recipient];
+        18          rewardsForA[recipient] = 0;
+        19          (bool success, ) = recipient.call.value(amountToWithdraw)("");
+        20          require(success);
+        21      }
+        22  
+        23      function getFirstWithdrawalBonus(address recipient) public {
+        24          require(!claimedBonus[recipient]); // Each recipient should only be able to claim the bonus once
+        25  
+        26          rewardsForA[recipient] += 100;
+        27          // <yes> <report> REENTRANCY
+        28          withdrawReward(recipient); // At this point, the caller will be able to execute getFirstWithdrawalBonus again.
+        29          claimedBonus[recipient] = true;
+        30      }
+        31  }
+
+3 accounts.
+* owner::
+Address: 0xb65fca8fd4697b9ce609e597109c6af8c5a2bbe3 
+Balance: 99999999999999956426 (*)
+Storage: STORAGE_b65fca8fd4697b9ce609e597109c6af8c5a2bbe3
+
+* attacker::
+Address: 0x955839ffbef9205b8586485a65427284414bfa07 
+Balance: 99999999999999977607 (*)
+Storage: STORAGE_955839ffbef9205b8586485a65427284414bfa07
+
+* contract0::
+Address: 0x4a263c2136af0ac5be8b7ef5cf96f5d8711b5a23 
+Balance: 0 (*)
+Storage: STORAGE_4a263c2136af0ac5be8b7ef5cf96f5d8711b5a23
+Code:
+	b'60806040526004361061004c576000357c010000000000000000000000000000'
+	b'0000000000000000000000000000900463ffffffff1680637d1c54f814610051'
+	b'578063b86e321c14610094575b600080fd5b34801561005d57600080fd5b5061'
+	b'0092600480360381019080803573ffffffffffffffffffffffffffffffffffff'
+	b'ffff1690602001909291905050506100d7565b005b3480156100a057600080fd'
+	b'5b506100d5600480360381019080803573ffffffffffffffffffffffffffffff'
+	b'ffffffffff1690602001909291905050506101e1565b005b600160008273ffff'
+	b'ffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffff'
+	b'ffffffffffffffff16815260200190815260200160002060009054906101000a'
+	b'900460ff1615151561013057600080fd5b6064600260008373ffffffffffffff'
+	b'ffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffff'
+	b'ffffff1681526020019081526020016000206000828254019250508190555061'
+	b'0187816101e1565b60018060008373ffffffffffffffffffffffffffffffffff'
+	b'ffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190'
+	b'815260200160002060006101000a81548160ff02191690831515021790555050'
+	b'565b600080600260008473ffffffffffffffffffffffffffffffffffffffff16'
+	b'73ffffffffffffffffffffffffffffffffffffffff1681526020019081526020'
+	b'016000205491506000600260008573ffffffffffffffffffffffffffffffffff'
+	b'ffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190'
+	b'8152602001600020819055508273ffffffffffffffffffffffffffffffffffff'
+	b'ffff168260405180602001905060006040518083038185875af1925050509050'
+	b'8015156102ab57600080fd5b5050505600a165627a7a72305820662525d3a96e'
+	b'4abbeb2128bf1911e9d1f1daa9e6e62c9fb0f799efc39f454c930029'
+Coverage 9% (on this state)
+
+
+
+(*) Example solution given. Value is symbolic and may take other values

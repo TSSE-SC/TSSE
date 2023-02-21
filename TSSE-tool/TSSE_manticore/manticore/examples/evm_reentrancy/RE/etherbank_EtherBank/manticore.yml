@@ -1,0 +1,3 @@
+cli:
+  argv:
+  - etherbank_EtherBank.sol

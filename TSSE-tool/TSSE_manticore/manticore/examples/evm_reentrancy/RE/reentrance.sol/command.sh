@@ -1,0 +1,1 @@
+/home/janson/.virtualenvs/py-test/bin/manticore reentrance_Reentrance.sol --exclude uninitialized-storage,uninitialized-memory,unused-return,suicidal,delegatecall,env-instr,lockdrop

@@ -1,0 +1,12 @@
+- Potential reentrancy vulnerability -
+  Contract: 0x258cf9c0fa3bf1a98ee9d04e8c5c8c80a3a73554  EVM Program counter: 0xf7
+  Snippet:
+18  msg.sender.call.value(oCredit)()
+- Reachable ether leak1 to sender -
+  Contract: 0x258cf9c0fa3bf1a98ee9d04e8c5c8c80a3a73554  EVM Program counter: 0xf7
+  Snippet:
+18  msg.sender.call.value(oCredit)()
+- Reentrancy multi-million ether bug -
+  Contract: 0x258cf9c0fa3bf1a98ee9d04e8c5c8c80a3a73554  EVM Program counter: 0xf7
+  Snippet:
+18  msg.sender.call.value(oCredit)()

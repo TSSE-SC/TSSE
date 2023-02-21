@@ -1,0 +1,23 @@
+Message: STOP
+Last exception: STOP
+Last instruction at contract 4a263c2136af0ac5be8b7ef5cf96f5d8711b5a23 offset d6
+    16  function withdrawReward(address recipient) public {
+        17          uint amountToWithdraw = rewardsForA[recipient];
+        18          rewardsForA[recipient] = 0;
+        19          (bool success, ) = recipient.call.value(amountToWithdraw)("");
+        20          require(success);
+        21      }
+
+4 accounts.
+* owner::
+Address: 0xb65fca8fd4697b9ce609e597109c6af8c5a2bbe3 
+Balance: 99999999999999956426 (*)
+Storage: STORAGE_b65fca8fd4697b9ce609e597109c6af8c5a2bbe3
+
+* attacker::
+Address: 0x955839ffbef9205b8586485a65427284414bfa07 
+Balance: 99999999999999924770 (*)
+Storage: STORAGE_955839ffbef9205b8586485a65427284414bfa07
+
+* contract0::
+Address: 0x4a263c2136af0ac5be8b7ef5cf96f5d8711b5a23 

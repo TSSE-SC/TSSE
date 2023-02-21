@@ -1,0 +1,69 @@
+Message: REVERT
+Last exception: REVERT
+Last instruction at contract 2659d564c127c0aa68ce32b4515418ad4285cc23 offset 50
+    9  contract Reentrancycrossfunction {
+        10  
+        11      // INSECURE
+        12      mapping (address => uint) private userBalances;
+        13  
+        14      function transfer(address to, uint amount) {
+        15          if (userBalances[msg.sender] >= amount) {
+        16              userBalances[to] += amount;
+        17              userBalances[msg.sender] -= amount;
+        18          }
+        19      }
+        20  
+        21      function withdrawBalance() public {
+        22          uint amountToWithdraw = userBalances[msg.sender];
+        23          // <yes> <report> REENTRANCY
+        24          (bool success, ) = msg.sender.call.value(amountToWithdraw)(""); // At this point, the caller's code is executed, and can call transfer()
+        25          require(success);
+        26          userBalances[msg.sender] = 0;
+        27      }
+        28  }
+
+3 accounts.
+* owner::
+Address: 0xd472d79a3db7d7e49593fb6d4a9b78837c1c4876 
+Balance: 99999999999999957591 (*)
+Storage: STORAGE_d472d79a3db7d7e49593fb6d4a9b78837c1c4876
+
+* attacker::
+Address: 0xed9bf2cf0cbe6f899a13f1d5deb5a4523b3c7b17 
+Balance: 99999999999999952581 (*)
+Storage: STORAGE_ed9bf2cf0cbe6f899a13f1d5deb5a4523b3c7b17
+
+* contract0::
+Address: 0x2659d564c127c0aa68ce32b4515418ad4285cc23 
+Balance: 0 (*)
+storage[f4d17a5c3150445ce099fbd9ff4c6c491192ffb66aba33dd11653bfba335807b] = 0
+Storage: (store STORAGE_2659d564c127c0aa68ce32b4515418ad4285cc23 #xf4d17a5c3150445ce099fbd9ff4c6c491192ffb66aba33dd11653bfba335807b #x0000000000000000000000000000000000000000000000000000000000000000)
+Code:
+	b'60806040526004361061004c576000357c010000000000000000000000000000'
+	b'0000000000000000000000000000900463ffffffff1680635fd8c71014610051'
+	b'578063a9059cbb14610068575b600080fd5b34801561005d57600080fd5b5061'
+	b'00666100b5565b005b34801561007457600080fd5b506100b360048036038101'
+	b'9080803573ffffffffffffffffffffffffffffffffffffffff16906020019092'
+	b'919080359060200190929190505050610181565b005b6000806000803373ffff'
+	b'ffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffff'
+	b'ffffffffffffffff1681526020019081526020016000205491503373ffffffff'
+	b'ffffffffffffffffffffffffffffffff16826040518060200190506000604051'
+	b'8083038185875af192505050905080151561013957600080fd5b600080600033'
+	b'73ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffff'
+	b'ffffffffffffffffffffff168152602001908152602001600020819055505050'
+	b'565b806000803373ffffffffffffffffffffffffffffffffffffffff1673ffff'
+	b'ffffffffffffffffffffffffffffffffffff1681526020019081526020016000'
+	b'205410151561026157806000808473ffffffffffffffffffffffffffffffffff'
+	b'ffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190'
+	b'815260200160002060008282540192505081905550806000803373ffffffffff'
+	b'ffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffff'
+	b'ffffffffff168152602001908152602001600020600082825403925050819055'
+	b'505b50505600a165627a7a723058206791e65e7e01a3d43820e26db8e5872d17'
+	b'dc016a7bcad56a3c6cf3e61ceb86cc0029'
+Coverage 46% (on this state)
+
+Known for globalsha3:
+b'000000000000000000000000ed9bf2cf0cbe6f899a13f1d5deb5a4523b3c7b170000000000000000000000000000000000000000000000000000000000000000'::f4d17a5c3150445ce099fbd9ff4c6c491192ffb66aba33dd11653bfba335807b
+
+
+(*) Example solution given. Value is symbolic and may take other values

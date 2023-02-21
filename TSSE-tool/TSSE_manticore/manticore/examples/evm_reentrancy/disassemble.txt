@@ -1,0 +1,633 @@
+[Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 128, 0), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 2), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 4), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 5), Instruction(0x36, CALLDATASIZE, 0, 0, 1, 2, Get size of input data in current environment., None, 7), Instruction(0x10, LT, 0, 2, 1, 3, Less-than comparision., None, 8), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 109, 9), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 12), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 13), Instruction(0x35, CALLDATALOAD, 0, 1, 1, 3, Get input data of current environment., None, 15), Instruction(0x7c, PUSH, 29, 0, 1, 3, Place 29-byte item on stack., 26959946667150639794667015087019630673637144422540572481103610249216, 16), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 46), Instruction(0x4, DIV, 0, 2, 1, 5, Integer division operation., None, 47), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 4294967295, 48), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 53), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 54), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 297588784, 55), Instruction(0x14, EQ, 0, 2, 1, 3, Equality comparision., None, 60), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 111, 61), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 64), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 65), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 669136355, 66), Instruction(0x14, EQ, 0, 2, 1, 3, Equality comparision., None, 71), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 154, 72), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 75), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 76), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 2681948145, 77), Instruction(0x14, EQ, 0, 2, 1, 3, Equality comparision., None, 82), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 241, 83), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 86), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 87), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 2683963153, 88), Instruction(0x14, EQ, 0, 2, 1, 3, Equality comparision., None, 93), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 340, 94), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 97), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 98), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 3978372236, 99), Instruction(0x14, EQ, 0, 2, 1, 3, Equality comparision., None, 104), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 372, 105), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 108), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 109), Instruction(0x0, STOP, 0, 0, 0, 0, Halts execution., None, 110), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 111), Instruction(0x34, CALLVALUE, 0, 0, 1, 2, Get deposited value by the instruction/transaction responsible for this execution., None, 112), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 113), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 114), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 123, 115), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 118), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 119), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 121), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 122), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 123), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 124), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 132, 125), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 382, 128), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 131), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 132), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 133), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 135), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 136), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 137), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 138), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 139), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 140), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 142), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 143), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 144), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 145), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 146), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 148), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 149), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 150), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 151), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 152), Instruction(0xf3, RETURN, 0, 2, 0, 0, Halt execution returning output data., None, 153), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 154), Instruction(0x34, CALLVALUE, 0, 0, 1, 2, Get deposited value by the instruction/transaction responsible for this execution., None, 155), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 156), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 157), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 166, 158), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 161), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 162), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 164), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 165), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 166), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 167), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 219, 168), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 171), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 173), Instruction(0x36, CALLDATASIZE, 0, 0, 1, 2, Get size of input data in current environment., None, 174), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 175), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 176), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 177), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 178), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 179), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 180), Instruction(0x35, CALLDATALOAD, 0, 1, 1, 3, Get input data of current environment., None, 181), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 182), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 203), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 204), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 205), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 207), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 208), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 209), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 210), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 211), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 212), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 213), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 214), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 388, 215), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 218), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 219), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 220), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 222), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 223), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 224), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 225), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 226), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 227), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 229), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 230), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 231), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 232), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 233), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 235), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 236), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 237), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 238), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 239), Instruction(0xf3, RETURN, 0, 2, 0, 0, Halt execution returning output data., None, 240), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 241), Instruction(0x34, CALLVALUE, 0, 0, 1, 2, Get deposited value by the instruction/transaction responsible for this execution., None, 242), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 243), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 244), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 253, 245), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 248), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 249), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 251), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 252), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 253), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 254), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 338, 255), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 258), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 260), Instruction(0x36, CALLDATASIZE, 0, 0, 1, 2, Get size of input data in current environment., None, 261), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 262), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 263), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 264), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 265), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 266), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 267), Instruction(0x35, CALLDATALOAD, 0, 1, 1, 3, Get input data of current environment., None, 268), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 269), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 290), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 291), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 292), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 294), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 295), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 296), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 297), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 298), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 299), Instruction(0x35, CALLDATALOAD, 0, 1, 1, 3, Get input data of current environment., None, 300), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 301), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 322), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 323), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 324), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 326), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 327), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 328), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 329), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 330), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 331), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 332), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 333), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 412, 334), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 337), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 338), Instruction(0x0, STOP, 0, 0, 0, 0, Halts execution., None, 339), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 340), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 370, 341), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 344), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 346), Instruction(0x36, CALLDATASIZE, 0, 0, 1, 2, Get size of input data in current environment., None, 347), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 348), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 349), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 350), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 351), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 352), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 353), Instruction(0x35, CALLDATALOAD, 0, 1, 1, 3, Get input data of current environment., None, 354), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 355), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 356), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 358), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 359), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 360), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 361), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 362), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 363), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 364), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 365), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 546, 366), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 369), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 370), Instruction(0x0, STOP, 0, 0, 0, 0, Halts execution., None, 371), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 372), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 380, 373), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 957, 376), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 379), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 380), Instruction(0x0, STOP, 0, 0, 0, 0, Halts execution., None, 381), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 382), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 3, 383), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 385), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 386), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 387), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 388), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 389), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 391), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 393), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 394), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 395), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 397), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 398), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 400), Instruction(0x20, SHA3, 0, 2, 1, 30, Compute Keccak-256 hash., None, 402), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 403), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 405), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 406), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 407), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 408), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 409), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 410), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 411), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 412), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 413), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 1, 414), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 416), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 256, 418), Instruction(0xa, EXP, 0, 2, 1, 10, Exponential operation., None, 421), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 422), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 423), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 424), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 425), Instruction(0x2, MUL, 0, 2, 1, 5, Multiplication operation., None, 446), Instruction(0x19, NOT, 0, 1, 1, 3, Bitwise NOT operation., None, 447), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 448), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 449), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 450), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 451), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 472), Instruction(0x2, MUL, 0, 2, 1, 5, Multiplication operation., None, 473), Instruction(0x17, OR, 0, 2, 1, 3, Bitwise OR operation., None, 474), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 475), Instruction(0x55, SSTORE, 0, 2, 0, 0, Save word to storage., None, 476), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 477), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 478), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 2, 479), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 481), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 256, 483), Instruction(0xa, EXP, 0, 2, 1, 10, Exponential operation., None, 486), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 487), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 488), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 489), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 490), Instruction(0x2, MUL, 0, 2, 1, 5, Multiplication operation., None, 511), Instruction(0x19, NOT, 0, 1, 1, 3, Bitwise NOT operation., None, 512), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 513), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 514), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 515), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 516), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 537), Instruction(0x2, MUL, 0, 2, 1, 5, Multiplication operation., None, 538), Instruction(0x17, OR, 0, 2, 1, 3, Bitwise OR operation., None, 539), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 540), Instruction(0x55, SSTORE, 0, 2, 0, 0, Save word to storage., None, 541), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 542), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 543), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 544), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 545), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 546), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 547), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 549), Instruction(0x33, CALLER, 0, 0, 1, 2, Get caller address., None, 550), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 551), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 572), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 573), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 594), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 595), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 596), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 597), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 599), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 600), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 601), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 602), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 603), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 605), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 606), Instruction(0x20, SHA3, 0, 2, 1, 30, Compute Keccak-256 hash., None, 608), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 609), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 610), Instruction(0x11, GT, 0, 2, 1, 3, Greater-than comparision., None, 611), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 612), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 613), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 954, 614), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 617), Instruction(0x33, CALLER, 0, 0, 1, 2, Get caller address., None, 618), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 619), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 640), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 641), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 642), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 644), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 645), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 647), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 649), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 650), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 651), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 652), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 653), Instruction(0x85, DUP, 0, 6, 7, 3, Duplicate 6th stack item., None, 654), Instruction(0x87, DUP, 0, 8, 9, 3, Duplicate 8th stack item., None, 655), Instruction(0x5a, GAS, 0, 0, 1, 2, Get the amount of available gas, including the corresponding reduction the amount of available gas., None, 656), Instruction(0xf1, CALL, 0, 7, 1, 700, Message-call into an account., None, 657), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 658), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 659), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 660), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 661), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 662), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 953, 663), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 666), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 667), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 668), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 670), Instruction(0x33, CALLER, 0, 0, 1, 2, Get caller address., None, 671), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 672), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 693), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 694), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 715), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 716), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 717), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 718), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 720), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 721), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 722), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 723), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 724), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 726), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 727), Instruction(0x20, SHA3, 0, 2, 1, 30, Compute Keccak-256 hash., None, 729), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 730), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 732), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 733), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 734), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 735), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 736), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 737), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 738), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 739), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 740), Instruction(0x55, SSTORE, 0, 2, 0, 0, Save word to storage., None, 741), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 742), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 2, 743), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 745), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 747), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 748), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 749), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 256, 750), Instruction(0xa, EXP, 0, 2, 1, 10, Exponential operation., None, 753), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 754), Instruction(0x4, DIV, 0, 2, 1, 5, Integer division operation., None, 755), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 756), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 777), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 778), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 799), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 4116654427, 800), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 805), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 806), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 808), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 809), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 4294967295, 810), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 815), Instruction(0x7c, PUSH, 29, 0, 1, 3, Place 29-byte item on stack., 26959946667150639794667015087019630673637144422540572481103610249216, 816), Instruction(0x2, MUL, 0, 2, 1, 5, Multiplication operation., None, 846), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 847), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 848), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 849), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 851), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 852), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 853), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 854), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 855), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 856), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 858), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 859), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 860), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 861), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 862), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 864), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 866), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 867), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 868), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 869), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 870), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 871), Instruction(0x87, DUP, 0, 8, 9, 3, Duplicate 8th stack item., None, 873), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 874), Instruction(0x3b, EXTCODESIZE, 0, 1, 1, 700, Get size of an account's code., None, 875), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 876), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 877), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 878), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 887, 879), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 882), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 883), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 885), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 886), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 887), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 888), Instruction(0x5a, GAS, 0, 0, 1, 2, Get the amount of available gas, including the corresponding reduction the amount of available gas., None, 889), Instruction(0xf1, CALL, 0, 7, 1, 700, Message-call into an account., None, 890), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 891), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 892), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 893), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 907, 894), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 897), Instruction(0x3d, RETURNDATASIZE, 0, 0, 1, 2, Get size of output data from the previous call from the current environment., None, 898), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 899), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 901), Instruction(0x3e, RETURNDATACOPY, 0, 3, 0, 3, Copy output data from the previous call to memory., None, 902), Instruction(0x3d, RETURNDATASIZE, 0, 0, 1, 2, Get size of output data from the previous call from the current environment., None, 903), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 904), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 906), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 907), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 908), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 909), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 910), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 911), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 912), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 914), Instruction(0x3d, RETURNDATASIZE, 0, 0, 1, 2, Get size of output data from the previous call from the current environment., None, 915), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 916), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 918), Instruction(0x10, LT, 0, 2, 1, 3, Less-than comparision., None, 919), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 920), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 929, 921), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 924), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 925), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 927), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 928), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 929), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 930), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 931), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 932), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 933), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 934), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 935), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 936), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 937), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 939), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 940), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 941), Instruction(0x91, SWAP, 0, 3, 3, 3, Exchange 1st and 3rd stack items., None, 942), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 943), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 944), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 945), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 946), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 947), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 949), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 950), Instruction(0x55, SSTORE, 0, 2, 0, 0, Save word to storage., None, 951), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 952), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 953), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 954), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 955), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 956), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 957), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 3, 958), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 960), Instruction(0x34, CALLVALUE, 0, 0, 1, 2, Get deposited value by the instruction/transaction responsible for this execution., None, 961), Instruction(0x11, GT, 0, 2, 1, 3, Greater-than comparision., None, 962), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 963), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 1322, 964), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 967), Instruction(0x34, CALLVALUE, 0, 0, 1, 2, Get deposited value by the instruction/transaction responsible for this execution., None, 968), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 969), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 971), Instruction(0x33, CALLER, 0, 0, 1, 2, Get caller address., None, 972), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 973), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 994), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 995), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 1016), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1017), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1018), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1019), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1021), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 1022), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1023), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1024), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1025), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1027), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1028), Instruction(0x20, SHA3, 0, 2, 1, 30, Compute Keccak-256 hash., None, 1030), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1031), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 1033), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 1034), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 1035), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1036), Instruction(0x92, SWAP, 0, 4, 4, 3, Exchange 1st and 4th stack items., None, 1037), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1038), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1039), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1040), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 1041), Instruction(0x55, SSTORE, 0, 2, 0, 0, Save word to storage., None, 1042), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1043), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 1, 1044), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1046), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 1048), Instruction(0x54, SLOAD, 0, 1, 1, 800, Load word from storage., None, 1049), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 1050), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 256, 1051), Instruction(0xa, EXP, 0, 2, 1, 10, Exponential operation., None, 1054), Instruction(0x90, SWAP, 0, 2, 2, 3, Exchange 1st and 2nd stack items., None, 1055), Instruction(0x4, DIV, 0, 2, 1, 5, Integer division operation., None, 1056), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 1057), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 1078), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 1079), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 1100), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 1278149796, 1101), Instruction(0x33, CALLER, 0, 0, 1, 2, Get caller address., None, 1106), Instruction(0x34, CALLVALUE, 0, 0, 1, 2, Get deposited value by the instruction/transaction responsible for this execution., None, 1107), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 1108), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 1110), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 1111), Instruction(0x63, PUSH, 4, 0, 1, 3, Place 4-byte item on stack., 4294967295, 1112), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 1117), Instruction(0x7c, PUSH, 29, 0, 1, 3, Place 29-byte item on stack., 26959946667150639794667015087019630673637144422540572481103610249216, 1118), Instruction(0x2, MUL, 0, 2, 1, 5, Multiplication operation., None, 1148), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1149), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1150), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 4, 1151), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1153), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1154), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 1155), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 1156), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 1177), Instruction(0x73, PUSH, 20, 0, 1, 3, Place 20-byte item on stack., 1461501637330902918203684832716283019655932542975, 1178), Instruction(0x16, AND, 0, 2, 1, 3, Bitwise AND operation., None, 1199), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1200), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1201), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1202), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1204), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 1205), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1206), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1207), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1208), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1210), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1211), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1212), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1214), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 1215), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1216), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 1217), Instruction(0x82, DUP, 0, 3, 4, 3, Duplicate 3rd stack item., None, 1218), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1219), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 7, 1220), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1222), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1223), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1224), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1226), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1227), Instruction(0x7f, PUSH, 32, 0, 1, 3, Place 32-byte (full word) item on stack., 30936501257503946264866058012942113971920036590613751686132234653273841205248, 1228), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1261), Instruction(0x52, MSTORE, 0, 2, 0, 3, Save word to memory., None, 1262), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1263), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 32, 1264), Instruction(0x1, ADD, 0, 2, 1, 3, Addition operation., None, 1266), Instruction(0x93, SWAP, 0, 5, 5, 3, Exchange 1st and 5th stack items., None, 1267), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1268), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1269), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1270), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1271), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1272), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 64, 1274), Instruction(0x51, MLOAD, 0, 1, 1, 3, Load word from memory., None, 1276), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1277), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 1278), Instruction(0x3, SUB, 0, 2, 1, 3, Subtraction operation., None, 1279), Instruction(0x81, DUP, 0, 2, 3, 3, Duplicate 2nd stack item., None, 1280), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1281), Instruction(0x87, DUP, 0, 8, 9, 3, Duplicate 8th stack item., None, 1283), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1284), Instruction(0x3b, EXTCODESIZE, 0, 1, 1, 700, Get size of an account's code., None, 1285), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 1286), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1287), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 1288), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 1297, 1289), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 1292), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1293), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1295), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 1296), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 1297), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1298), Instruction(0x5a, GAS, 0, 0, 1, 2, Get the amount of available gas, including the corresponding reduction the amount of available gas., None, 1299), Instruction(0xf1, CALL, 0, 7, 1, 700, Message-call into an account., None, 1300), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 1301), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1302), Instruction(0x15, ISZERO, 0, 1, 1, 3, Simple not operator., None, 1303), Instruction(0x61, PUSH, 2, 0, 1, 3, Place 2-byte item on stack., 1317, 1304), Instruction(0x57, JUMPI, 0, 2, 0, 10, Conditionally alter the program counter., None, 1307), Instruction(0x3d, RETURNDATASIZE, 0, 0, 1, 2, Get size of output data from the previous call from the current environment., None, 1308), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1309), Instruction(0x80, DUP, 0, 1, 2, 3, Duplicate 1st stack item., None, 1311), Instruction(0x3e, RETURNDATACOPY, 0, 3, 0, 3, Copy output data from the previous call to memory., None, 1312), Instruction(0x3d, RETURNDATASIZE, 0, 0, 1, 2, Get size of output data from the previous call from the current environment., None, 1313), Instruction(0x60, PUSH, 1, 0, 1, 3, Place 1 byte item on stack., 0, 1314), Instruction(0xfd, REVERT, 0, 2, 0, 0, Stop execution and revert state changes, without consuming all provided gas and providing a reason., None, 1316), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 1317), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1318), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1319), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1320), Instruction(0x50, POP, 0, 1, 0, 2, Remove item from stack., None, 1321), Instruction(0x5b, JUMPDEST, 0, 0, 0, 1, Mark a valid destination for jumps., None, 1322), Instruction(0x56, JUMP, 0, 1, 0, 8, Alter the program counter., None, 1323), Instruction(0x0, STOP, 0, 0, 0, 0, Halts execution., None, 1324), Instruction(0xa1, LOG, 0, 3, 0, 750, Append log record with one topic., None, 1325), Instruction(0x65, PUSH, 6, 0, 1, 3, Place 6-byte item on stack., 108278179835992, 1326), Instruction(0x20, SHA3, 0, 2, 1, 30, Compute Keccak-256 hash., None, 1333), Instruction(0xaf, INVALID, 0, 0, 0, 0, Unspecified invalid instruction., None, 1334), Instruction(0xe6, INVALID, 0, 0, 0, 0, Unspecified invalid instruction., None, 1335), Instruction(0x2e, INVALID, 0, 0, 0, 0, Unspecified invalid instruction., None, 1336), Instruction(0x83, DUP, 0, 4, 5, 3, Duplicate 4th stack item., None, 1337), Instruction(0x49, INVALID, 0, 0, 0, 0, Unspecified invalid instruction., None, 1338), Instruction(0x8, ADDMOD, 0, 3, 1, 8, Modulo addition operation., None, 1339)]
+PUSH1 0x80
+PUSH1 0x40
+MSTORE
+PUSH1 0x4
+CALLDATASIZE
+LT
+PUSH2 0x6d
+JUMPI
+PUSH1 0x0
+CALLDATALOAD
+PUSH29 0x100000000000000000000000000000000000000000000000000000000
+SWAP1
+DIV
+PUSH4 0xffffffff
+AND
+DUP1
+PUSH4 0x11bcd830
+EQ
+PUSH2 0x6f
+JUMPI
+DUP1
+PUSH4 0x27e235e3
+EQ
+PUSH2 0x9a
+JUMPI
+DUP1
+PUSH4 0x9fdb47f1
+EQ
+PUSH2 0xf1
+JUMPI
+DUP1
+PUSH4 0x9ffa0711
+EQ
+PUSH2 0x154
+JUMPI
+DUP1
+PUSH4 0xed21248c
+EQ
+PUSH2 0x174
+JUMPI
+JUMPDEST
+STOP
+JUMPDEST
+CALLVALUE
+DUP1
+ISZERO
+PUSH2 0x7b
+JUMPI
+PUSH1 0x0
+DUP1
+REVERT
+JUMPDEST
+POP
+PUSH2 0x84
+PUSH2 0x17e
+JUMP
+JUMPDEST
+PUSH1 0x40
+MLOAD
+DUP1
+DUP3
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+SWAP2
+POP
+POP
+PUSH1 0x40
+MLOAD
+DUP1
+SWAP2
+SUB
+SWAP1
+RETURN
+JUMPDEST
+CALLVALUE
+DUP1
+ISZERO
+PUSH2 0xa6
+JUMPI
+PUSH1 0x0
+DUP1
+REVERT
+JUMPDEST
+POP
+PUSH2 0xdb
+PUSH1 0x4
+DUP1
+CALLDATASIZE
+SUB
+DUP2
+ADD
+SWAP1
+DUP1
+DUP1
+CALLDATALOAD
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+SWAP1
+PUSH1 0x20
+ADD
+SWAP1
+SWAP3
+SWAP2
+SWAP1
+POP
+POP
+POP
+PUSH2 0x184
+JUMP
+JUMPDEST
+PUSH1 0x40
+MLOAD
+DUP1
+DUP3
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+SWAP2
+POP
+POP
+PUSH1 0x40
+MLOAD
+DUP1
+SWAP2
+SUB
+SWAP1
+RETURN
+JUMPDEST
+CALLVALUE
+DUP1
+ISZERO
+PUSH2 0xfd
+JUMPI
+PUSH1 0x0
+DUP1
+REVERT
+JUMPDEST
+POP
+PUSH2 0x152
+PUSH1 0x4
+DUP1
+CALLDATASIZE
+SUB
+DUP2
+ADD
+SWAP1
+DUP1
+DUP1
+CALLDATALOAD
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+SWAP1
+PUSH1 0x20
+ADD
+SWAP1
+SWAP3
+SWAP2
+SWAP1
+DUP1
+CALLDATALOAD
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+SWAP1
+PUSH1 0x20
+ADD
+SWAP1
+SWAP3
+SWAP2
+SWAP1
+POP
+POP
+POP
+PUSH2 0x19c
+JUMP
+JUMPDEST
+STOP
+JUMPDEST
+PUSH2 0x172
+PUSH1 0x4
+DUP1
+CALLDATASIZE
+SUB
+DUP2
+ADD
+SWAP1
+DUP1
+DUP1
+CALLDATALOAD
+SWAP1
+PUSH1 0x20
+ADD
+SWAP1
+SWAP3
+SWAP2
+SWAP1
+POP
+POP
+POP
+PUSH2 0x222
+JUMP
+JUMPDEST
+STOP
+JUMPDEST
+PUSH2 0x17c
+PUSH2 0x3bd
+JUMP
+JUMPDEST
+STOP
+JUMPDEST
+PUSH1 0x3
+SLOAD
+DUP2
+JUMP
+JUMPDEST
+PUSH1 0x0
+PUSH1 0x20
+MSTORE
+DUP1
+PUSH1 0x0
+MSTORE
+PUSH1 0x40
+PUSH1 0x0
+SHA3
+PUSH1 0x0
+SWAP2
+POP
+SWAP1
+POP
+SLOAD
+DUP2
+JUMP
+JUMPDEST
+DUP2
+PUSH1 0x1
+PUSH1 0x0
+PUSH2 0x100
+EXP
+DUP2
+SLOAD
+DUP2
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+MUL
+NOT
+AND
+SWAP1
+DUP4
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+MUL
+OR
+SWAP1
+SSTORE
+POP
+DUP1
+PUSH1 0x2
+PUSH1 0x0
+PUSH2 0x100
+EXP
+DUP2
+SLOAD
+DUP2
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+MUL
+NOT
+AND
+SWAP1
+DUP4
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+MUL
+OR
+SWAP1
+SSTORE
+POP
+POP
+POP
+JUMP
+JUMPDEST
+PUSH1 0x0
+DUP1
+CALLER
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+SWAP1
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+PUSH1 0x0
+SHA3
+SLOAD
+DUP2
+GT
+ISZERO
+ISZERO
+PUSH2 0x3ba
+JUMPI
+CALLER
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+DUP2
+PUSH1 0x40
+MLOAD
+PUSH1 0x0
+PUSH1 0x40
+MLOAD
+DUP1
+DUP4
+SUB
+DUP2
+DUP6
+DUP8
+GAS
+CALL
+SWAP3
+POP
+POP
+POP
+ISZERO
+PUSH2 0x3b9
+JUMPI
+DUP1
+PUSH1 0x0
+DUP1
+CALLER
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+SWAP1
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+PUSH1 0x0
+SHA3
+PUSH1 0x0
+DUP3
+DUP3
+SLOAD
+SUB
+SWAP3
+POP
+POP
+DUP2
+SWAP1
+SSTORE
+POP
+PUSH1 0x2
+PUSH1 0x0
+SWAP1
+SLOAD
+SWAP1
+PUSH2 0x100
+EXP
+SWAP1
+DIV
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH4 0xf55f295b
+DUP3
+PUSH1 0x40
+MLOAD
+DUP3
+PUSH4 0xffffffff
+AND
+PUSH29 0x100000000000000000000000000000000000000000000000000000000
+MUL
+DUP2
+MSTORE
+PUSH1 0x4
+ADD
+DUP1
+DUP3
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+SWAP2
+POP
+POP
+PUSH1 0x20
+PUSH1 0x40
+MLOAD
+DUP1
+DUP4
+SUB
+DUP2
+PUSH1 0x0
+DUP8
+DUP1
+EXTCODESIZE
+ISZERO
+DUP1
+ISZERO
+PUSH2 0x377
+JUMPI
+PUSH1 0x0
+DUP1
+REVERT
+JUMPDEST
+POP
+GAS
+CALL
+ISZERO
+DUP1
+ISZERO
+PUSH2 0x38b
+JUMPI
+RETURNDATASIZE
+PUSH1 0x0
+DUP1
+RETURNDATACOPY
+RETURNDATASIZE
+PUSH1 0x0
+REVERT
+JUMPDEST
+POP
+POP
+POP
+POP
+PUSH1 0x40
+MLOAD
+RETURNDATASIZE
+PUSH1 0x20
+DUP2
+LT
+ISZERO
+PUSH2 0x3a1
+JUMPI
+PUSH1 0x0
+DUP1
+REVERT
+JUMPDEST
+DUP2
+ADD
+SWAP1
+DUP1
+DUP1
+MLOAD
+SWAP1
+PUSH1 0x20
+ADD
+SWAP1
+SWAP3
+SWAP2
+SWAP1
+POP
+POP
+POP
+PUSH1 0x4
+DUP2
+SWAP1
+SSTORE
+POP
+JUMPDEST
+JUMPDEST
+POP
+JUMP
+JUMPDEST
+PUSH1 0x3
+SLOAD
+CALLVALUE
+GT
+ISZERO
+PUSH2 0x52a
+JUMPI
+CALLVALUE
+PUSH1 0x0
+DUP1
+CALLER
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+SWAP1
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+PUSH1 0x0
+SHA3
+PUSH1 0x0
+DUP3
+DUP3
+SLOAD
+ADD
+SWAP3
+POP
+POP
+DUP2
+SWAP1
+SSTORE
+POP
+PUSH1 0x1
+PUSH1 0x0
+SWAP1
+SLOAD
+SWAP1
+PUSH2 0x100
+EXP
+SWAP1
+DIV
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH4 0x4c2f04a4
+CALLER
+CALLVALUE
+PUSH1 0x40
+MLOAD
+DUP4
+PUSH4 0xffffffff
+AND
+PUSH29 0x100000000000000000000000000000000000000000000000000000000
+MUL
+DUP2
+MSTORE
+PUSH1 0x4
+ADD
+DUP1
+DUP4
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+AND
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+DUP3
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+DUP1
+PUSH1 0x20
+ADD
+DUP3
+DUP2
+SUB
+DUP3
+MSTORE
+PUSH1 0x7
+DUP2
+MSTORE
+PUSH1 0x20
+ADD
+DUP1
+PUSH32 0x4465706f73697400000000000000000000000000000000000000000000000000
+DUP2
+MSTORE
+POP
+PUSH1 0x20
+ADD
+SWAP4
+POP
+POP
+POP
+POP
+PUSH1 0x0
+PUSH1 0x40
+MLOAD
+DUP1
+DUP4
+SUB
+DUP2
+PUSH1 0x0
+DUP8
+DUP1
+EXTCODESIZE
+ISZERO
+DUP1
+ISZERO
+PUSH2 0x511
+JUMPI
+PUSH1 0x0
+DUP1
+REVERT
+JUMPDEST
+POP
+GAS
+CALL
+ISZERO
+DUP1
+ISZERO
+PUSH2 0x525
+JUMPI
+RETURNDATASIZE
+PUSH1 0x0
+DUP1
+RETURNDATACOPY
+RETURNDATASIZE
+PUSH1 0x0
+REVERT
+JUMPDEST
+POP
+POP
+POP
+POP
+JUMPDEST
+JUMP
+STOP
+LOG1
+PUSH6 0x627a7a723058
+SHA3
+INVALID
+INVALID
+INVALID
+DUP4
+INVALID
+ADDMOD

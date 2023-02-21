@@ -1,0 +1,293 @@
+    0: PUSH1 0x80
+    2: PUSH1 0x40
+    4: MSTORE
+    5: CALLVALUE
+    6: DUP1
+    7: ISZERO
+    8: PUSH2 0x10
+    b: JUMPI
+    c: PUSH1 0x0
+    e: DUP1
+    f: REVERT
+   10: JUMPDEST
+   11: POP
+   12: PUSH2 0x291
+   15: DUP1
+   16: PUSH2 0x20
+   19: PUSH1 0x0
+   1b: CODECOPY
+   1c: PUSH1 0x0
+   1e: RETURN
+   1f: STOP
+   20: PUSH1 0x80
+   22: PUSH1 0x40
+   24: MSTORE
+   25: PUSH1 0x4
+   27: CALLDATASIZE
+   28: LT
+   29: PUSH2 0x4c
+   2c: JUMPI
+   2d: PUSH1 0x0
+   2f: CALLDATALOAD
+   30: PUSH29 0x100000000000000000000000000000000000000000000000000000000
+   4e: SWAP1
+   4f: DIV
+   50: PUSH4 0xffffffff
+   55: AND
+   56: DUP1
+   57: PUSH4 0x5fd8c710
+   5c: EQ
+   5d: PUSH2 0x51
+   60: JUMPI
+   61: DUP1
+   62: PUSH4 0xa9059cbb
+   67: EQ
+   68: PUSH2 0x68
+   6b: JUMPI
+   6c: JUMPDEST
+   6d: PUSH1 0x0
+   6f: DUP1
+   70: REVERT
+   71: JUMPDEST
+   72: CALLVALUE
+   73: DUP1
+   74: ISZERO
+   75: PUSH2 0x5d
+   78: JUMPI
+   79: PUSH1 0x0
+   7b: DUP1
+   7c: REVERT
+   7d: JUMPDEST
+   7e: POP
+   7f: PUSH2 0x66
+   82: PUSH2 0xb5
+   85: JUMP
+   86: JUMPDEST
+   87: STOP
+   88: JUMPDEST
+   89: CALLVALUE
+   8a: DUP1
+   8b: ISZERO
+   8c: PUSH2 0x74
+   8f: JUMPI
+   90: PUSH1 0x0
+   92: DUP1
+   93: REVERT
+   94: JUMPDEST
+   95: POP
+   96: PUSH2 0xb3
+   99: PUSH1 0x4
+   9b: DUP1
+   9c: CALLDATASIZE
+   9d: SUB
+   9e: DUP2
+   9f: ADD
+   a0: SWAP1
+   a1: DUP1
+   a2: DUP1
+   a3: CALLDATALOAD
+   a4: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+   b9: AND
+   ba: SWAP1
+   bb: PUSH1 0x20
+   bd: ADD
+   be: SWAP1
+   bf: SWAP3
+   c0: SWAP2
+   c1: SWAP1
+   c2: DUP1
+   c3: CALLDATALOAD
+   c4: SWAP1
+   c5: PUSH1 0x20
+   c7: ADD
+   c8: SWAP1
+   c9: SWAP3
+   ca: SWAP2
+   cb: SWAP1
+   cc: POP
+   cd: POP
+   ce: POP
+   cf: PUSH2 0x181
+   d2: JUMP
+   d3: JUMPDEST
+   d4: STOP
+   d5: JUMPDEST
+   d6: PUSH1 0x0
+   d8: DUP1
+   d9: PUSH1 0x0
+   db: DUP1
+   dc: CALLER
+   dd: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+   f2: AND
+   f3: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  108: AND
+  109: DUP2
+  10a: MSTORE
+  10b: PUSH1 0x20
+  10d: ADD
+  10e: SWAP1
+  10f: DUP2
+  110: MSTORE
+  111: PUSH1 0x20
+  113: ADD
+  114: PUSH1 0x0
+  116: SHA3
+  117: SLOAD
+  118: SWAP2
+  119: POP
+  11a: CALLER
+  11b: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  130: AND
+  131: DUP3
+  132: PUSH1 0x40
+  134: MLOAD
+  135: DUP1
+  136: PUSH1 0x20
+  138: ADD
+  139: SWAP1
+  13a: POP
+  13b: PUSH1 0x0
+  13d: PUSH1 0x40
+  13f: MLOAD
+  140: DUP1
+  141: DUP4
+  142: SUB
+  143: DUP2
+  144: DUP6
+  145: DUP8
+  146: GAS
+  147: CALL
+  148: SWAP3
+  149: POP
+  14a: POP
+  14b: POP
+  14c: SWAP1
+  14d: POP
+  14e: DUP1
+  14f: ISZERO
+  150: ISZERO
+  151: PUSH2 0x139
+  154: JUMPI
+  155: PUSH1 0x0
+  157: DUP1
+  158: REVERT
+  159: JUMPDEST
+  15a: PUSH1 0x0
+  15c: DUP1
+  15d: PUSH1 0x0
+  15f: CALLER
+  160: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  175: AND
+  176: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  18b: AND
+  18c: DUP2
+  18d: MSTORE
+  18e: PUSH1 0x20
+  190: ADD
+  191: SWAP1
+  192: DUP2
+  193: MSTORE
+  194: PUSH1 0x20
+  196: ADD
+  197: PUSH1 0x0
+  199: SHA3
+  19a: DUP2
+  19b: SWAP1
+  19c: SSTORE
+  19d: POP
+  19e: POP
+  19f: POP
+  1a0: JUMP
+  1a1: JUMPDEST
+  1a2: DUP1
+  1a3: PUSH1 0x0
+  1a5: DUP1
+  1a6: CALLER
+  1a7: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  1bc: AND
+  1bd: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  1d2: AND
+  1d3: DUP2
+  1d4: MSTORE
+  1d5: PUSH1 0x20
+  1d7: ADD
+  1d8: SWAP1
+  1d9: DUP2
+  1da: MSTORE
+  1db: PUSH1 0x20
+  1dd: ADD
+  1de: PUSH1 0x0
+  1e0: SHA3
+  1e1: SLOAD
+  1e2: LT
+  1e3: ISZERO
+  1e4: ISZERO
+  1e5: PUSH2 0x261
+  1e8: JUMPI
+  1e9: DUP1
+  1ea: PUSH1 0x0
+  1ec: DUP1
+  1ed: DUP5
+  1ee: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  203: AND
+  204: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  219: AND
+  21a: DUP2
+  21b: MSTORE
+  21c: PUSH1 0x20
+  21e: ADD
+  21f: SWAP1
+  220: DUP2
+  221: MSTORE
+  222: PUSH1 0x20
+  224: ADD
+  225: PUSH1 0x0
+  227: SHA3
+  228: PUSH1 0x0
+  22a: DUP3
+  22b: DUP3
+  22c: SLOAD
+  22d: ADD
+  22e: SWAP3
+  22f: POP
+  230: POP
+  231: DUP2
+  232: SWAP1
+  233: SSTORE
+  234: POP
+  235: DUP1
+  236: PUSH1 0x0
+  238: DUP1
+  239: CALLER
+  23a: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  24f: AND
+  250: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  265: AND
+  266: DUP2
+  267: MSTORE
+  268: PUSH1 0x20
+  26a: ADD
+  26b: SWAP1
+  26c: DUP2
+  26d: MSTORE
+  26e: PUSH1 0x20
+  270: ADD
+  271: PUSH1 0x0
+  273: SHA3
+  274: PUSH1 0x0
+  276: DUP3
+  277: DUP3
+  278: SLOAD
+  279: SUB
+  27a: SWAP3
+  27b: POP
+  27c: POP
+  27d: DUP2
+  27e: SWAP1
+  27f: SSTORE
+  280: POP
+  281: JUMPDEST
+  282: POP
+  283: POP
+  284: JUMP
+  285: STOP

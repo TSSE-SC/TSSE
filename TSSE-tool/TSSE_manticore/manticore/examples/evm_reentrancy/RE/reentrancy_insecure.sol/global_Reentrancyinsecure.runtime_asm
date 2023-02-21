@@ -1,0 +1,128 @@
+    0: PUSH1 0x80
+    2: PUSH1 0x40
+    4: MSTORE
+    5: PUSH1 0x4
+    7: CALLDATASIZE
+    8: LT
+    9: PUSH2 0x41
+    c: JUMPI
+    d: PUSH1 0x0
+    f: CALLDATALOAD
+   10: PUSH29 0x100000000000000000000000000000000000000000000000000000000
+   2e: SWAP1
+   2f: DIV
+   30: PUSH4 0xffffffff
+   35: AND
+   36: DUP1
+   37: PUSH4 0x5fd8c710
+   3c: EQ
+   3d: PUSH2 0x46
+   40: JUMPI
+   41: JUMPDEST
+   42: PUSH1 0x0
+   44: DUP1
+   45: REVERT
+   46: JUMPDEST
+   47: CALLVALUE
+   48: DUP1
+   49: ISZERO
+   4a: PUSH2 0x52
+   4d: JUMPI
+   4e: PUSH1 0x0
+   50: DUP1
+   51: REVERT
+   52: JUMPDEST
+   53: POP
+   54: PUSH2 0x5b
+   57: PUSH2 0x5d
+   5a: JUMP
+   5b: JUMPDEST
+   5c: STOP
+   5d: JUMPDEST
+   5e: PUSH1 0x0
+   60: DUP1
+   61: PUSH1 0x0
+   63: DUP1
+   64: CALLER
+   65: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+   7a: AND
+   7b: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+   90: AND
+   91: DUP2
+   92: MSTORE
+   93: PUSH1 0x20
+   95: ADD
+   96: SWAP1
+   97: DUP2
+   98: MSTORE
+   99: PUSH1 0x20
+   9b: ADD
+   9c: PUSH1 0x0
+   9e: SHA3
+   9f: SLOAD
+   a0: SWAP2
+   a1: POP
+   a2: CALLER
+   a3: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+   b8: AND
+   b9: DUP3
+   ba: PUSH1 0x40
+   bc: MLOAD
+   bd: DUP1
+   be: PUSH1 0x20
+   c0: ADD
+   c1: SWAP1
+   c2: POP
+   c3: PUSH1 0x0
+   c5: PUSH1 0x40
+   c7: MLOAD
+   c8: DUP1
+   c9: DUP4
+   ca: SUB
+   cb: DUP2
+   cc: DUP6
+   cd: DUP8
+   ce: GAS
+   cf: CALL
+   d0: SWAP3
+   d1: POP
+   d2: POP
+   d3: POP
+   d4: SWAP1
+   d5: POP
+   d6: DUP1
+   d7: ISZERO
+   d8: ISZERO
+   d9: PUSH2 0xe1
+   dc: JUMPI
+   dd: PUSH1 0x0
+   df: DUP1
+   e0: REVERT
+   e1: JUMPDEST
+   e2: PUSH1 0x0
+   e4: DUP1
+   e5: PUSH1 0x0
+   e7: CALLER
+   e8: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+   fd: AND
+   fe: PUSH20 0xffffffffffffffffffffffffffffffffffffffff
+  113: AND
+  114: DUP2
+  115: MSTORE
+  116: PUSH1 0x20
+  118: ADD
+  119: SWAP1
+  11a: DUP2
+  11b: MSTORE
+  11c: PUSH1 0x20
+  11e: ADD
+  11f: PUSH1 0x0
+  121: SHA3
+  122: DUP2
+  123: SWAP1
+  124: SSTORE
+  125: POP
+  126: POP
+  127: POP
+  128: JUMP
+  129: STOP

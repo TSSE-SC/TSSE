@@ -1,0 +1,116 @@
+./SC/0x0208a56ea43c3ff6c2611071948794c2674a16b9_1.sol,suicidal,NULL,151.766095161438,False,False,True,kill(),148.5343017578125
+./SC/0x0208a56ea43c3ff6c2611071948794c2674a16b9_2.sol,suicidal,NULL,193.61420464515686,False,False,False,kill(),191.05534839630127
+./SC/0x0208a56ea43c3ff6c2611071948794c2674a16b9_3.sol,suicidal,NULL,167.1486840248108,False,False,True,kill(),144.95902729034424
+./SC/0x05f8b281410c9327a1bbf508db380fd967c31df6.sol,suicidal,NULL,181.2475254535675,False,True,False,selfdestructs(),178.11811637878418
+./SC/0x11eba93a0a852fd34002f5411e1663cf864edb8b_2.sol,suicidal,NULL,266.22878193855286,False,False,False,deprecateContract(),262.6629321575165
+./SC/0x287fda15f8f002e5df9f536f10bbfc0816960f36_1.sol,suicidal,NULL,176.58334159851074,False,True,True,selfdestructs(),171.91528511047363
+./SC/0x287fda15f8f002e5df9f536f10bbfc0816960f36_2.sol,suicidal,NULL,201.92559790611267,False,True,False,selfdestructs(),179.78316593170166
+./SC/0x287fda15f8f002e5df9f536f10bbfc0816960f36_3.sol,suicidal,NULL,173.09898209571838,False,True,True,selfdestructs(),169.7243514060974
+./SC/0x34BC9A332350A41374aa650f1152C8D88e35a878_1.sol,suicidal,NULL,30.022101879119873,False,False,True,collectOwnerWinnings(),8.322193384170532
+./SC/0x34BC9A332350A41374aa650f1152C8D88e35a878_2.sol,suicidal,NULL,11.261285543441772,False,False,True,collectOwnerWinnings(),8.46296763420105
+./SC/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_1.sol,suicidal,NULL,142.3366403579712,False,False,True,destruct(),138.67277145385742
+./SC/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_2.sol,suicidal,NULL,143.50743651390076,False,False,False,destruct(),139.67823457717896
+./SC/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_3.sol,suicidal,NULL,149.72371292114258,False,False,True,destruct(),146.04196739196777
+./SC/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_1.sol,suicidal,NULL,156.84474778175354,False,False,True,close(),152.7087972164154
+./SC/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_2.sol,suicidal,NULL,154.5779197216034,False,False,False,close(),150.74000573158264
+./SC/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_3.sol,suicidal,NULL,154.82294011116028,False,False,True,close(),150.366384267807
+./SC/0x5f7bb27f7a4702ebce052745cddc1f567ec89e15_1.sol,False,0,2.698726177215576,NULL,NULL,NULL,NO_1
+./SC/0x5f7bb27f7a4702ebce052745cddc1f567ec89e15_2.sol,False,0,2.811768054962158,NULL,NULL,NULL,NO_1
+./SC/0x5f7bb27f7a4702ebce052745cddc1f567ec89e15_3.sol,False,0,2.690269708633423,NULL,NULL,NULL,NO_1
+./SC/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_1.sol,False,0,3.047152519226074,NULL,NULL,NULL,NO_1
+./SC/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_2.sol,False,0,2.3464999198913574,NULL,NULL,NULL,NO_1
+./SC/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_3.sol,False,0,21.475108861923218,NULL,NULL,NULL,NO_1
+./SC/0xb5c0e43a6330b9eb904ec57ea24d70269ae4652e.sol,False,0,21.527101278305054,NULL,NULL,NULL,NO_1
+./SC/0xb60e133dacf00b6f560909dc0a5311ae7f9a659b.sol,False,0,21.458640336990356,NULL,NULL,NULL,NO_1
+./SC/0xead71f4d060ddc7656c959b482fbdfaca95c5d9d.sol,suicidal,NULL,182.35113310813904,False,True,False,selfdestructs(),179.36591458320618
+./SC/0xfc1078a7bb4521881663df4148434acd991af14c_1.sol,suicidal,NULL,198.56147289276123,False,False,True,destroy(address),194.70266962051392
+./SC/0xfc1078a7bb4521881663df4148434acd991af14c_2.sol,suicidal,NULL,188.50019359588623,False,False,False,destroy(address),184.02487969398499
+./SC/0xfc1078a7bb4521881663df4148434acd991af14c_3.sol,suicidal,NULL,147.84396028518677,False,False,True,destroy(address),144.39451622962952
+./SC/parity_wallet_bug_2.sol,timestamp,NULL,42.16612458229065,False,False,True,underLimit(uint256),38.899826526641846
+./SC/0x860a8c64cbc7f9aac11428ef8df989f5770cda60_1.sol,suicidal,NULL,27.89592480659485,False,False,True,destoryContract(address),5.109179735183716
+./SC/0x860a8c64cbc7f9aac11428ef8df989f5770cda60_1.sol,suicidal,NULL,33.404805421829224,False,False,True,destoryContract(address),30.10912847518921
+./SC/0x860a8c64cbc7f9aac11428ef8df989f5770cda60_1.sol,suicidal,NULL,142.35909962654114,False,False,True,destoryContract(address),138.99638271331787
+//////////////////////////////////////////////////////////////////////////
+./SC/0x0208a56ea43c3ff6c2611071948794c2674a16b9_1.sol,suicidal,NULL,181.08798122406006,False,False,True,kill(),177.22835993766785
+./SC/0x0208a56ea43c3ff6c2611071948794c2674a16b9_2.sol,suicidal,NULL,181.07515168190002,False,False,False,kill(),159.25976371765137
+./SC/0x0208a56ea43c3ff6c2611071948794c2674a16b9_3.sol,suicidal,NULL,198.7628195285797,False,False,True,kill(),176.96041584014893
+./SC/0x05f8b281410c9327a1bbf508db380fd967c31df6.sol,suicidal,NULL,171.27972316741943,False,True,False,selfdestructs(),167.68233633041382
+./SC/0x11eba93a0a852fd34002f5411e1663cf864edb8b_2.sol,suicidal,NULL,246.63271594047546,False,False,False,deprecateContract(),243.0886619091034
+./SC/0x287fda15f8f002e5df9f536f10bbfc0816960f36_1.sol,suicidal,NULL,173.17195630073547,False,True,True,selfdestructs(),156.9636332988739
+./SC/0x287fda15f8f002e5df9f536f10bbfc0816960f36_2.sol,suicidal,NULL,175.93739080429077,False,True,False,selfdestructs(),154.03298783302307
+./SC/0x287fda15f8f002e5df9f536f10bbfc0816960f36_3.sol,suicidal,NULL,175.7431037425995,False,True,True,selfdestructs(),153.7703194618225
+./SC/0x34BC9A332350A41374aa650f1152C8D88e35a878_1.sol,suicidal,NULL,29.238330602645874,False,False,True,collectOwnerWinnings(),7.484565496444702
+./SC/0x34BC9A332350A41374aa650f1152C8D88e35a878_2.sol,suicidal,NULL,29.730037689208984,False,False,True,collectOwnerWinnings(),8.07568645477295
+./SC/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_1.sol,suicidal,NULL,151.6238477230072,False,False,True,destruct(),129.0341100692749
+./SC/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_2.sol,suicidal,NULL,130.70996475219727,False,False,False,destruct(),126.98796916007996
+./SC/0x3933e1bd030c3c14407f8eecce81493e066ab5e1_3.sol,suicidal,NULL,136.4267737865448,False,False,True,destruct(),132.40552616119385
+./SC/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_1.sol,suicidal,NULL,147.64592051506042,False,False,True,close(),143.68921899795532
+./SC/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_2.sol,suicidal,NULL,146.21070885658264,False,False,False,close(),142.4908802509308
+./SC/0x42e98f6ed27fc8f76118efb7d4fe9a254bf3bcc9_3.sol,suicidal,NULL,151.71342062950134,False,False,True,close(),145.74754691123962
+./SC/0x5f7bb27f7a4702ebce052745cddc1f567ec89e15_1.sol,False,0,2.796828031539917,NULL,NULL,NULL,NO_1
+./SC/0x5f7bb27f7a4702ebce052745cddc1f567ec89e15_2.sol,False,0,2.8283638954162598,NULL,NULL,NULL,NO_1
+./SC/0x5f7bb27f7a4702ebce052745cddc1f567ec89e15_3.sol,False,0,2.754213809967041,NULL,NULL,NULL,NO_1
+./SC/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_1.sol,False,0,2.7620928287506104,NULL,NULL,NULL,NO_1
+./SC/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_2.sol,False,0,4.9724204540252686,NULL,NULL,NULL,NO_1
+./SC/0x9ac4883b0226fb37fa362dbd76564c539c4f0ee6_3.sol,False,0,4.999091863632202,NULL,NULL,NULL,NO_1
+./SC/0xb5c0e43a6330b9eb904ec57ea24d70269ae4652e.sol,False,0,2.1940479278564453,NULL,NULL,NULL,NO_1
+./SC/0xb60e133dacf00b6f560909dc0a5311ae7f9a659b.sol,False,0,3.8803904056549072,NULL,NULL,NULL,NO_1
+./SC/0xead71f4d060ddc7656c959b482fbdfaca95c5d9d.sol,suicidal,NULL,177.58542251586914,False,True,False,selfdestructs(),171.54136323928833
+./SC/0xfc1078a7bb4521881663df4148434acd991af14c_1.sol,suicidal,NULL,208.6851418018341,False,False,True,destroy(address),203.21358108520508
+./SC/0xfc1078a7bb4521881663df4148434acd991af14c_2.sol,suicidal,NULL,194.3804452419281,False,False,False,destroy(address),190.2101674079895
+./SC/0xfc1078a7bb4521881663df4148434acd991af14c_3.sol,suicidal,NULL,158.6294720172882,False,False,True,destroy(address),154.6207399368286
+./SC/parity_wallet_bug_2.sol,timestamp,NULL,46.58046007156372,False,False,True,underLimit(uint256),42.86079120635986
+SC/simple_suicide.sol,False,0,2.492455244064331,NULL,NULL,NULL,NO_static
+
+TD////////////////////////////////////////////////////
+TD/buggy_10.sol,timestamp,NULL,6.551687717437744,False,True,False,"bug_time_inter(Test1,uint256)",3.461174249649048
+TD/buggy_11.sol,timestamp,NULL,5.765274286270142,False,True,False,"bug_time_inter(Test1,uint256)",3.3829073905944824
+TD/buggy_12.sol,timestamp,NULL,6.902798414230347,False,True,False,"bug_time_inter(Test1,uint256)",3.4357035160064697
+TD/buggy_13.sol,timestamp,NULL,25.841700553894043,False,True,False,"bug_time_inter(Test1,uint256)",4.33638596534729
+TD/buggy_14.sol,timestamp,NULL,6.825730323791504,False,True,False,"bug_time_inter(Test1,uint256)",4.366231441497803
+TD/buggy_15.sol,timestamp,NULL,6.145381927490234,False,True,False,"bug_time_inter(Test1,uint256)",3.898282527923584
+TD/buggy_16.sol,timestamp,NULL,6.185814380645752,False,True,False,"bug_time_inter(Test1,uint256)",3.9277169704437256
+TD/buggy_17.sol,timestamp,NULL,6.752492666244507,False,True,False,"bug_time_inter(Test1,uint256)",4.444048166275024
+TD/buggy_18.sol,timestamp,NULL,6.742629051208496,False,True,False,"bug_time_inter(Test1,uint256)",4.419662714004517
+TD/buggy_19.sol,timestamp,NULL,6.203146457672119,False,True,False,"bug_time_inter(Test1,uint256)",3.8187601566314697
+TD/buggy_1.sol,timestamp,NULL,6.3317039012908936,False,True,False,"bug_time_inter(Test1,uint256)",4.0215818881988525
+TD/buggy_20.sol,timestamp,NULL,6.50029182434082,False,True,False,"bug_time_inter(Test1,uint256)",3.846376657485962
+TD/buggy_21.sol,timestamp,NULL,6.376924991607666,False,True,False,"bug_time_inter(Test1,uint256)",4.0914483070373535
+TD/buggy_22.sol,timestamp,NULL,6.165714502334595,False,True,False,"bug_time_inter(Test1,uint256)",3.859189033508301
+TD/buggy_23.sol,timestamp,NULL,6.1324920654296875,False,True,False,"bug_time_inter(Test1,uint256)",3.859006643295288
+TD/buggy_24.sol,timestamp,NULL,5.877784013748169,False,True,False,"bug_time_inter(Test1,uint256)",3.432534694671631
+TD/buggy_25.sol,timestamp,NULL,5.883070945739746,False,True,False,"bug_time_inter(Test1,uint256)",3.497328758239746
+TD/buggy_26.sol,timestamp,NULL,5.690181493759155,False,True,False,"bug_time_inter(Test1,uint256)",3.4135422706604004
+TD/buggy_27.sol,timestamp,NULL,6.30437445640564,False,True,False,"bug_time_inter(Test1,uint256)",3.986575126647949
+TD/buggy_28.sol,timestamp,NULL,6.231047868728638,False,True,False,"bug_time_inter(Test1,uint256)",3.9238157272338867
+TD/buggy_29.sol,timestamp,NULL,6.325026750564575,False,True,False,"bug_time_inter(Test1,uint256)",4.050572633743286
+TD/buggy_2.sol,timestamp,NULL,6.543689250946045,False,True,False,"bug_time_inter(Test1,uint256)",4.247488260269165
+TD/buggy_30.sol,timestamp,NULL,5.830655574798584,False,True,False,"bug_time_inter(Test1,uint256)",3.5083580017089844
+TD/buggy_31.sol,timestamp,NULL,5.880516052246094,False,True,False,"bug_time_inter(Test1,uint256)",3.561429738998413
+TD/buggy_32.sol,timestamp,NULL,5.970252275466919,False,True,False,"bug_time_inter(Test1,uint256)",3.6304304599761963
+TD/buggy_33.sol,timestamp,NULL,6.602447986602783,False,True,False,"bug_time_inter(Test1,uint256)",4.382617235183716
+TD/buggy_34.sol,timestamp,NULL,6.812469244003296,False,True,False,"bug_time_inter(Test1,uint256)",4.501327753067017
+TD/buggy_35.sol,timestamp,NULL,6.2847208976745605,False,True,False,"bug_time_inter(Test1,uint256)",3.9843931198120117
+TD/buggy_36.sol,timestamp,NULL,6.21954607963562,False,True,False,"bug_time_inter(Test1,uint256)",3.8430888652801514
+TD/buggy_37.sol,timestamp,NULL,6.8873069286346436,False,True,False,"bug_time_inter(Test1,uint256)",4.544542551040649
+TD/buggy_38.sol,timestamp,NULL,7.394891262054443,False,True,False,"bug_time_inter(Test1,uint256)",4.493727922439575
+TD/buggy_39.sol,timestamp,NULL,6.068335771560669,False,True,False,"bug_time_inter(Test1,uint256)",3.7550048828125
+TD/buggy_3.sol,timestamp,NULL,6.267896413803101,False,True,False,"bug_time_inter(Test1,uint256)",4.0759828090667725
+TD/buggy_40.sol,timestamp,NULL,6.1580586433410645,False,True,False,"bug_time_inter(Test1,uint256)",3.8517544269561768
+TD/buggy_41.sol,False,0,1.9691946506500244,NULL,NULL,NULL,compile error!
+TD/buggy_42.sol,False,0,2.06257963180542,NULL,NULL,NULL,compile error!
+TD/buggy_43.sol,False,0,2.051957130432129,NULL,NULL,NULL,compile error!
+TD/buggy_44.sol,False,0,2.0494425296783447,NULL,NULL,NULL,compile error!
+TD/buggy_45.sol,False,0,2.011451482772827,NULL,NULL,NULL,compile error!
+TD/buggy_46.sol,False,0,1.9875307083129883,NULL,NULL,NULL,compile error!
+TD/buggy_47.sol,False,0,2.002002477645874,NULL,NULL,NULL,compile error!
+TD/buggy_48.sol,False,0,2.0426290035247803,NULL,NULL,NULL,compile error!
+TD/buggy_49.sol,False,0,2.030235767364502,NULL,NULL,NULL,compile error!
+TD/buggy_4.sol,timestamp,NULL,5.930562257766724,False,True,False,"bug_time_inter(Test1,uint256)",3.6329970359802246
+TD/buggy_50.sol,False,0,1.9966659545898438,NULL,NULL,NULL,compile error!
+TD/buggy_5.sol,timestamp,NULL,5.739828586578369,False,True,False,"bug_time_inter(Test1,uint256)",3.442656993865967
+TD/buggy_6.sol,timestamp,NULL,5.86235499382019,False,True,False,"bug_time_inter(Test1,uint256)",3.5806186199188232
+TD/buggy_7.sol,timestamp,NULL,6.346876859664917,False,True,False,"bug_time_inter(Test1,uint256)",4.006136178970337
+TD/buggy_8.sol,timestamp,NULL,6.3985137939453125,False,True,False,"bug_time_inter(Test1,uint256)",4.132924318313599
+TD/buggy_9.sol,timestamp,NULL,6.170055150985718,False,True,False,"bug_time_inter(Test1,uint256)",3.941650629043579
+0x05f8b281410c9327a1bbf508db380fd967c31df6.sol,suicidal,NULL,155.12829303741455,False,True,False,selfdestructs(),146.82532048225403

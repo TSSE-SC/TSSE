@@ -1,0 +1,16 @@
+Message: maybe reentrancy?
+Last exception: SELFDESTRUCT
+2 accounts.
+* owner::
+Address: 0x7b0b94d3a45b24a135b26d59364a63a231de77c7 
+Balance: 99999999999999961477 (*)
+Storage: STORAGE_7b0b94d3a45b24a135b26d59364a63a231de77c7
+
+* attacker::
+Address: 0x3c5634f0ea48cbdd238459665a8a01639edccad3 
+Balance: 99999999999999984588 (*)
+Storage: STORAGE_3c5634f0ea48cbdd238459665a8a01639edccad3
+
+
+
+(*) Example solution given. Value is symbolic and may take other values

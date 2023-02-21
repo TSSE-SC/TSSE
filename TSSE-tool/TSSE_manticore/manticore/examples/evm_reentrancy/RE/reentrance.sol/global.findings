@@ -1,0 +1,20 @@
+- Potential reentrancy vulnerability -
+  Contract: 0xe5cf539709118795aeee167d6626e45e0c21089e  EVM Program counter: 0x24a
+  Solidity snippet:
+    24  msg.sender.call.value(_amount)()
+
+- Reachable ether leak1 to sender -
+  Contract: 0xe5cf539709118795aeee167d6626e45e0c21089e  EVM Program counter: 0x24a
+  Solidity snippet:
+    24  msg.sender.call.value(_amount)()
+
+- Reachable external call1 to sender -
+  Contract: 0xe5cf539709118795aeee167d6626e45e0c21089e  EVM Program counter: 0x24a
+  Solidity snippet:
+    24  msg.sender.call.value(_amount)()
+
+- Reentrancy multi-million ether bug -
+  Contract: 0xe5cf539709118795aeee167d6626e45e0c21089e  EVM Program counter: 0x24a
+  Solidity snippet:
+    24  msg.sender.call.value(_amount)()
+

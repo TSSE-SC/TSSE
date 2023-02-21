@@ -1,0 +1,4 @@
+- Reachable ether leak1 to sender via argument -
+  Contract: 0x4a263c2136af0ac5be8b7ef5cf96f5d8711b5a23  EVM Program counter: 0x299
+  Snippet:
+19  recipient.call.value(amountToWithdraw)("")

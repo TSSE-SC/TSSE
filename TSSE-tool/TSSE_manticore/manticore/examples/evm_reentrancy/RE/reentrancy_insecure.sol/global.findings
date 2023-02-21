@@ -1,0 +1,15 @@
+- Potential reentrancy vulnerability -
+  Contract: 0x6ef3279babfb1720d85657e68ca457284c6730b6  EVM Program counter: 0xcf
+  Solidity snippet:
+    17  msg.sender.call.value(amountToWithdraw)("")
+
+- Reentrancy multi-million ether bug -
+  Contract: 0x6ef3279babfb1720d85657e68ca457284c6730b6  EVM Program counter: 0xcf
+  Solidity snippet:
+    17  msg.sender.call.value(amountToWithdraw)("")
+
+- Reachable external call1 to sender -
+  Contract: 0x6ef3279babfb1720d85657e68ca457284c6730b6  EVM Program counter: 0xcf
+  Solidity snippet:
+    17  msg.sender.call.value(amountToWithdraw)("")
+

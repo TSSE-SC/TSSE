@@ -1,0 +1,79 @@
+/**
+ *Submitted for verification at Etherscan.io on 2019-08-07
+*/
+
+pragma solidity ^0.4.25;
+
+contract Piggy_Bank
+{
+    function Put(uint _unlockTime)
+    public
+    payable
+    {
+        var acc = Acc[msg.sender];
+        acc.balance += msg.value;
+        acc.unlockTime = _unlockTime>now?_unlockTime:now;
+    }
+// <yes> Reentrancy
+    function Collect(uint _am)
+    public
+    payable
+    {
+        var acc = Acc[msg.sender];
+        if( acc.balance>=MinSum && acc.balance>=_am && now>acc.unlockTime)
+        {
+            if(msg.sender.call.value(_am)())
+            {
+                acc.balance-=_am;
+            }
+        }
+    }
+
+    function() 
+    public 
+    payable
+    {
+        Put(0);
+    }
+
+    struct Holder   
+    {
+        uint unlockTime;
+        uint balance;
+    }
+
+    mapping (address => Holder) public Acc;
+
+
+    uint public MinSum = 1 ether;    
+
+    function Piggy_Bank() public{
+ 
+    }
+}
+
+
+// contract Log 
+// {
+//     struct Message
+//     {
+//         address Sender;
+//         string  Data;
+//         uint Val;
+//         uint  Time;
+//     }
+
+//     Message[] public History;
+
+//     Message LastMsg;
+
+//     function AddMessage(address _adr,uint _val,string _data)
+//     public
+//     {
+//         LastMsg.Sender = _adr;
+//         LastMsg.Time = now;
+//         LastMsg.Val = _val;
+//         LastMsg.Data = _data;
+//         History.push(LastMsg);
+//     }
+// }

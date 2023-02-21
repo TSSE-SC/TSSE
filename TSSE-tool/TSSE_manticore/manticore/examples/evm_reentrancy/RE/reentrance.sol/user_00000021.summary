@@ -1,0 +1,24 @@
+Message: REVERT
+Last exception: REVERT
+Last instruction at contract e5cf539709118795aeee167d6626e45e0c21089e offset f
+    2  ://ethernaut
+
+3 accounts.
+* owner::
+Address: 0x4424b6f3ce5c8f10303d3dd38071b49e54b2c54d 
+Balance: 99999999999999955655 (*)
+Storage: STORAGE_4424b6f3ce5c8f10303d3dd38071b49e54b2c54d
+
+* attacker::
+Address: 0xcb1cae394cf1ee50bc3f931039a76106e1f9df70 
+Balance: 100000000000000000000 
+Storage: STORAGE_cb1cae394cf1ee50bc3f931039a76106e1f9df70
+
+* contract0::
+Address: 0xe5cf539709118795aeee167d6626e45e0c21089e 
+Balance: 0 (*)
+Storage: STORAGE_e5cf539709118795aeee167d6626e45e0c21089e
+
+
+
+(*) Example solution given. Value is symbolic and may take other values

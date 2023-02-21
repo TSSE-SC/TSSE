@@ -1,0 +1,4 @@
+cli:
+  argv:
+  - reentrancybonus_Reentrancybonus.sol
+  detectors_to_exclude: uninitialized-storage,uninitialized-memory,unused-return,suicidal,delegatecall,env-instr,lockdrop

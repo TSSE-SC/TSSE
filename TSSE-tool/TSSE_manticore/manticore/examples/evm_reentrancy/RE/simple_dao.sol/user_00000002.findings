@@ -1,0 +1,12 @@
+- Reachable external call1 to sender -
+  Contract: 0x96e2cfe0b099a3e0900e5e33ba4e5ee2238041d  EVM Program counter: 0x237
+  Snippet:
+19  msg.sender.call.value(amount)()
+- Potential reentrancy vulnerability -
+  Contract: 0x96e2cfe0b099a3e0900e5e33ba4e5ee2238041d  EVM Program counter: 0x237
+  Snippet:
+19  msg.sender.call.value(amount)()
+- Reentrancy multi-million ether bug -
+  Contract: 0x96e2cfe0b099a3e0900e5e33ba4e5ee2238041d  EVM Program counter: 0x237
+  Snippet:
+19  msg.sender.call.value(amount)()

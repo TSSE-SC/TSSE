@@ -1,0 +1,12 @@
+- Reentrancy multi-million ether bug -
+  Contract: 0xe22cb24e90b66e9b54a1c800d1b5fb36dd311814  EVM Program counter: 0x13a
+  Snippet:
+24  msg.sender.call.value(userBalance[msg.sender])()
+- Reachable ether leak1 to sender -
+  Contract: 0xe22cb24e90b66e9b54a1c800d1b5fb36dd311814  EVM Program counter: 0x13a
+  Snippet:
+24  msg.sender.call.value(userBalance[msg.sender])()
+- Potential reentrancy vulnerability -
+  Contract: 0xe22cb24e90b66e9b54a1c800d1b5fb36dd311814  EVM Program counter: 0x13a
+  Snippet:
+24  msg.sender.call.value(userBalance[msg.sender])()

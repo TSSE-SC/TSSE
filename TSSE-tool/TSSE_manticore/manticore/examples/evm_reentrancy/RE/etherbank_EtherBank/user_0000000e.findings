@@ -1,0 +1,12 @@
+- Potential reentrancy vulnerability -
+  Contract: 0x6cc41f0c4664399f42fe54cdfae40b5ae22965be  EVM Program counter: 0x14c
+  Snippet:
+21  msg.sender.call.value(amountToWithdraw)()
+- Reachable external call1 to sender -
+  Contract: 0x6cc41f0c4664399f42fe54cdfae40b5ae22965be  EVM Program counter: 0x14c
+  Snippet:
+21  msg.sender.call.value(amountToWithdraw)()
+- Reentrancy multi-million ether bug -
+  Contract: 0x6cc41f0c4664399f42fe54cdfae40b5ae22965be  EVM Program counter: 0x14c
+  Snippet:
+21  msg.sender.call.value(amountToWithdraw)()

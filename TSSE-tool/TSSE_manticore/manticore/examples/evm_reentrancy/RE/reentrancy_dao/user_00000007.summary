@@ -1,0 +1,52 @@
+Message: STOP
+Last exception: STOP
+Last instruction at contract 258cf9c0fa3bf1a98ee9d04e8c5c8c80a3a73554 offset 67
+    13  function withdrawAll() public {
+        14          uint oCredit = credit[msg.sender];
+        15          if (oCredit > 0) {
+        16              balance -= oCredit;
+        17              // <yes> <report> REENTRANCY
+        18              bool callResult = msg.sender.call.value(oCredit)();
+        19              require (callResult);
+        20              credit[msg.sender] = 0;
+        21          }
+        22      }
+
+3 accounts.
+* owner::
+Address: 0xd52e7c4f0139ca0e2eb0c4a5e330b639993ee675 
+Balance: 99999999999999960475 (*)
+Storage: STORAGE_d52e7c4f0139ca0e2eb0c4a5e330b639993ee675
+
+* attacker::
+Address: 0x2a445d552ee22c53b510da1482e44010e6a01296 
+Balance: 99999999999999864907 (*)
+Storage: STORAGE_2a445d552ee22c53b510da1482e44010e6a01296
+
+* contract0::
+Address: 0x258cf9c0fa3bf1a98ee9d04e8c5c8c80a3a73554 
+Balance: 0 (*)
+storage[1] = 0
+storage[5560c969db10ffb8c6dd1e3ffa06cb4a16b868cf3df56a8d1e47f017615c992a] = 0
+Storage: (store (store (store (store (store (store STORAGE_258cf9c0fa3bf1a98ee9d04e8c5c8c80a3a73554 #x5560c969db10ffb8c6dd1e3ffa06cb4a16b868cf3df56a8d1e47f017615c992a SVALUE_1) #x0000000000000000000000000000000000000000000000000000000000000001 SVALUE_1) #x5560c969db10ffb8c6dd1e3ffa06cb4a16b868cf3df56a8d1e47f017615c992a (bvadd SVALUE_1 SVALUE_3)) #x0000000000000000000000000000000000000000000000000000000000000001 (bvadd SVALUE_1 SVALUE_3)) #x0000000000000000000000000000000000000000000000000000000000000001 (bvsub (bvadd SVALUE_1 SVALUE_3) (bvadd SVALUE_1 SVALUE_3))) #x5560c969db10ffb8c6dd1e3ffa06cb4a16b868cf3df56a8d1e47f017615c992a #x0000000000000000000000000000000000000000000000000000000000000000)
+Code:
+	b'60806040526004361061004c576000357c010000000000000000000000000000'
+	b'0000000000000000000000000000900463ffffffff168063853828b614610051'
+	b'578063d0e30db014610068575b600080fd5b34801561005d57600080fd5b5061'
+	b'0066610072565b005b610070610152565b005b6000806000803373ffffffffff'
+	b'ffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffff'
+	b'ffffffffff168152602001908152602001600020549150600082111561014e57'
+	b'816001600082825403925050819055503373ffffffffffffffffffffffffffff'
+	b'ffffffffffff168260405160006040518083038185875af19250505090508015'
+	b'1561010957600080fd5b60008060003373ffffffffffffffffffffffffffffff'
+	b'ffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020'
+	b'01908152602001600020819055505b5050565b346000803373ffffffffffffff'
+	b'ffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffff'
+	b'ffffff1681526020019081526020016000206000828254019250508190555034'
+	b'6001600082825401925050819055505600a165627a7a72305820c62ebc6e4e73'
+	b'29acb9f17fa9ec0c93e3f6d9171cc3776c6d71bd55ab97aec3550029'
+Coverage 94% (on this state)
+
+
+
+(*) Example solution given. Value is symbolic and may take other values

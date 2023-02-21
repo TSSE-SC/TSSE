@@ -1,0 +1,1 @@
+/home/janson/.virtualenvs/py-test/bin/manticore etherbank_EtherBank.sol
