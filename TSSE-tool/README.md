@@ -50,7 +50,7 @@ Suicidal (SC), Timestamp dependency (TD). They are mainly based on the [SWC Regi
 
 # Results
 
-[SmartBugs](https://github.com/smartbugs/smartbugs) was used to evaluate Conkas. The results can be found in the following tables. A vulnerability is considered true positive if the tool can give the category in which that vulnerability belongs and the line number in the source code of the Smart Contract with an interval of -5 to +5.
+A sample output document is in the example-output folder
 
 # License
 
