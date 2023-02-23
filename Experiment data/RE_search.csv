@@ -1,0 +1,30 @@
+﻿name,bug,states,time,human label,
+smart_bug_reentrancy/0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol,TRUE,154,33.49203229,Yse,TP
+smart_bug_reentrancy/0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol,TRUE,50,18.31677365,Yse,TP
+smart_bug_reentrancy/0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol,TRUE,155,30.15207839,Yse,TP
+smart_bug_reentrancy/0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol,TRUE,81,18.83373618,Yse,TP
+smart_bug_reentrancy/0x561eac93c92360949ab1f1403323e6db345cbf31.sol,TRUE,81,21.40087318,Yse,TP
+smart_bug_reentrancy/0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol,FALSE,0,1.285620213,No,TN
+smart_bug_reentrancy/0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol,FALSE,0,25.84933019,Yse,FN
+smart_bug_reentrancy/0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol,TRUE,70,27.98575544,Yse,TP
+smart_bug_reentrancy/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol,FALSE,0,27.05161309,Yse,FN
+smart_bug_reentrancy/0x93c32845fae42c83a70e5f06214c8433665c2ab5.sol,FALSE,0,26.1714747,Yse,FN
+smart_bug_reentrancy/0x941d225236464a25eb18076df7da6a91d0f95e9e.sol,TRUE,54,19.5059731,Yse,TP
+smart_bug_reentrancy/0x96edbe868531bd23a6c05e9d0c424ea64fb1b78b.sol,FALSE,0,18.76198888,Yse,FN
+smart_bug_reentrancy/0xaae1f51cf3339f18b6d3f3bdc75a5facd744b0b8.sol,TRUE,81,18.94187117,Yse,TP
+smart_bug_reentrancy/0xb5e1b1ee15c6fa0e48fce100125569d430f1bd12.sol,TRUE,50,18.6539886,Yse,TP
+smart_bug_reentrancy/0xb93430ce38ac4a6bb47fb1fc085ea669353fd89e.sol,TRUE,50,18.33877707,Yse,TP
+smart_bug_reentrancy/0xbaf51e761510c1a11bf48dd87c0307ac8a8c8a4f.sol,TRUE,50,19.12757277,Yse,TP
+smart_bug_reentrancy/0xbe4041d55db380c5ae9d4a9b9703f1ed4e7e3888.sol,TRUE,113,23.26930189,Yse,TP
+smart_bug_reentrancy/0xcead721ef5b11f1a7b530171aab69b16c5e66b6e.sol,FALSE,0,26.3425591,Yse,FN
+smart_bug_reentrancy/0xf015c35649c82f5467c9c74b7f28ee67665aad68.sol,FALSE,0,28.68019557,Yse,FN
+smart_bug_reentrancy/etherbank.sol,FALSE,60,18.52495432,Yse,FN
+smart_bug_reentrancy/etherstore.sol,FALSE,NO_1,0.951147318,Yse,FN
+smart_bug_reentrancy/modifier_reentrancy.sol,FALSE,NO_1,0.835613489,Yse,FN
+smart_bug_reentrancy/reentrance.sol,TRUE,147,43.68566155,Yse,TP
+smart_bug_reentrancy/reentrancy_bonus.sol,FALSE,0,12.12998819,No,TN
+smart_bug_reentrancy/reentrancy_cross_function.sol,FALSE,compile error!,0.843003035,Yse,FN
+smart_bug_reentrancy/reentrancy_dao.sol,TRUE,74,33.83604097,Yse,TP
+smart_bug_reentrancy/reentrancy_insecure.sol,FALSE,12,9.307708502,No,TN
+smart_bug_reentrancy/reentrancy_simple.sol,TRUE,52,17.61999989,Yse,TP
+smart_bug_reentrancy/simple_dao.sol,TRUE,126,39.67363381,Yse,TP
